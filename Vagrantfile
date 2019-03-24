@@ -16,3 +16,4 @@ Vagrant.configure("2") do |config|
         pro.vm.network "private_network", type: "dhcp"
         pro.vm.hostname="provision"
     end
+end
